@@ -1,0 +1,199 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body
+    {
+        background-color: f0f0f2;
+        color:darkslateblue;
+    }
+    div
+    {
+        width:60%;
+        height:60%;
+        background-color: white;
+        margin:auto;
+        margin-top: 30px;
+    }
+    p
+    {
+        display: inline;
+    }
+    .search
+    {
+        
+       float:right;
+        color:gray;
+        background-color: white;
+        border-bottom: 1px solid grey;
+        margin-right:10px;
+    }
+    #title
+    {
+        text-align: center;
+        padding-left: 100px;
+        font-size: 30px;
+    }
+    #title_span
+    {
+        font-weight:bolder;
+    }
+
+    table,td,th
+    {
+        border: 1px solid grey;
+        border-collapse: collapse;
+        padding:2px;
+        text-align: left;
+        font-size: medium;
+    }
+    table
+    {
+       margin-top: 0;
+       padding-top: 0px;
+       width:90%;
+    }
+   .pagination
+    {
+        color:royalblue;    
+    }
+    .pagination_a
+    {
+        text-decoration: none;
+    }
+    .fa-eye
+    {
+        color:dodgerblue;
+        font-size: medium;
+    }
+    .fa-pencil
+    {
+        color:goldenrod;
+        font-size: medium;
+    }
+    .material-icons
+    {
+        color:red;
+        font-size: medium;
+    }
+    .triangle:after 
+    {
+    content: ' \25BE';
+   }
+</style>
+</head>
+<body>
+
+<div>
+    <p style="float: left;">
+        Show 
+        <select>
+            <option>
+                <button>5</button>
+            </option>
+        </select>
+        entries
+    </p>
+    <p style="float: right;">
+        <p class="search">
+            <i class="fa fa-search"></i>
+            &nbsp;&nbsp;&nbsp;Search...
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    </p>
+<div>
+        <p id="title">Customer
+             <span id="title_span">Details</span>
+        </p>
+    <table>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Address</th>
+          <th class="triangle">City</th>
+          <th>Pin Code</th>
+          <th class="triangle">Country</th>
+          <th>Actions</th>  
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Thomas Hardy</td>
+          <td>89 Chairoscuro Rd.</td>
+          <td>Portiand</td>
+          <td>97219</td>
+          <td>USA</td>
+          <td>
+            <i class="fa fa-eye"></i>
+            <i class="fa fa-pencil"></i>
+            <i class="material-icons">delete</i>
+          </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Maria Anders</td>
+            <td>Obere Str.57</td>
+            <td>Berlin</td>
+            <td>12209</td>
+            <td>Germany</td>
+            <td>
+                <i class="fa fa-eye"></i>
+                <i class="fa fa-pencil"></i>
+                <i class="material-icons">delete</i>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Fran Wilson</td>
+            <td>C/Araquil,67</td>
+            <td>Madrid</td>
+            <td>28023</td>
+            <td>Spain</td>
+            <td>
+                <i class="fa fa-eye"></i>
+                <i class="fa fa-pencil"></i>
+                <i class="material-icons">delete</i>
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Dominique Perrier</td>
+            <td>25 Lue Lauriston</td>
+            <td>Paris</td>
+            <td>75016</td>
+            <td>France</td>
+            <td>
+                <i class="fa fa-eye"></i>
+                <i class="fa fa-pencil"></i>
+                <i class="material-icons">delete</i>
+            </td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Martin Blank</td>
+            <td>Via Monte Bianco 34</td>
+            <td>Turin</td>
+            <td>10100</td>
+            <td>Itali</td>
+            <td> 
+                <i class="fa fa-eye"></i>
+                <i class="fa fa-pencil"></i>
+                <i class="material-icons">delete</i>
+            </td>
+        </tr>
+     </table> 
+     <p style="float:left">Showing 5 out of 25 entries</p>
+     <p style="float:right;" class="pagination">
+        <a href="#" class="pagination_a">Previous</a>
+        <a href="#" class="pagination_a">1</a>
+        <a href="#" class="pagination_a">2</a>
+        <a href="#" class="pagination_a" style="width:50px; height:50px; background-color:dodgerblue; border-radius: 50%;">3</a>
+        <a href="#" class="pagination_a">4</a>
+        <a href="#" class="pagination_a">5</a>
+        <a href="#" class="pagination_a">Next</a>
+    </p>
+</div>
+</div>
+</body>
+</html>
