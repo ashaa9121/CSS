@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            .main
+            {
+                width:100%;
+                height:100%;
+                margin:auto;
+                background-color:#1f2e2e;
+                position: absolute;
+            }
+            .sub_div
+            {
+                width:60%;
+                height:450px;
+                margin-top:90px;
+                margin-left:250px;
+                background-color:#00b359;
+               
+            }
+            .header
+            {
+                background-color: white;
+                height: 30px;
+                border-top-left-radius: 5px;
+                border-top-right-radius:5px;
+            }
+           
+            .inner_div_left
+            {
+                width:60%;
+                height:420px;
+                background-color:#141f1f;
+                overflow: hidden;
+               
+                
+            }
+            .welcome
+            {
+                padding:110px;
+            }
+          
+          .footer_a
+          {
+            text-decoration: none;
+            font-size: xx-small;
+            color:grey;
+            padding:2px;
+            font-family:inherit;
+           
+           
+          }
+          input{
+            border: 0;
+            background: transparent;
+            border-bottom: 1px solid white;
+            color:white;
+            font-size: small;
+          }
+          .login
+          {
+              
+              padding-left:550px;
+              padding-top:120px;
+              position: fixed;
+          }
+          img
+          {
+              width:50px;
+              height: 50px;
+              position: fixed;
+              padding-left: 50px;
+              padding-top: 30px;
+          }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+           
+            <div class="sub_div">
+               
+                <!-- Header portion and left circles...-->
+                <div class="header">
+                    <p class="top_left_circle">
+                        <i class="fa fa-circle" style="color:red; font-size: x-small;"></i>&nbsp;
+                        <i class="fa fa-circle" style="color:yellow;font-size: x-small;"></i>&nbsp;
+                        <i class="fa fa-circle" style="color:green;font-size: x-small;"></i>
+    
+                     </p>
+                </div>
+                
+                <!-- Right side login form....-->
+                   <div class="login">
+                       <h4  style="color:white; font-size: large; font-family: serif;">Or login to your account</h4>
+                       <form>
+                       <input type="text" name="fname" value="Your Name"><br><br>
+                       <input type="text" name="lname" value="Password"><br><br>
+                       <button style="background-color: white; padding: 6px;border:none;color:#00b359;">Login</button>
+                       <label style="color:white; font-size: small;">Forget Password?</label>
+                       </form>
+                   </div>
+                <!--Left side welcome.......-->   
+                   <div class="inner_div_left">
+                      <img src="image.png">
+                    <div class="welcome">
+                      <p style="color:white;text-align: center;
+                        font-size: xx-large;">
+                        Welcome
+                      </p>
+                      <p style="color:white;font-size: small;text-align: center; 
+                        font-family:sans-serif;">
+                        Register for an ERC account here
+                      </p>
+                      <p style="color:white;
+                         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                         text-align: justify;font-size: small;">
+                         Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                         Maxime qui atquenulla sit quam blanditiis aperiam odio. 
+                       </p>
+                       <button style="background-color:#00b359;
+                       color:white; border: none; padding:10px;">
+                       REGISTER HERE
+                       </button>
+                       <br><br>
+                       <p class="footer">
+                          <a href="#" class="footer_a">Choose Language&#9660;</a>
+                          <a href="#" class="footer_a">Help Center</a>
+                          <a href="#" class="footer_a">ERC Website</a>
+                          <a href="#" class="footer_a">ERC Webshop</a>
+                       </p>  
+                       
+                    </div>
+              </div>
+
+              
+               
+            </div>
+           
+        </div>
+    </body>
+</html>
